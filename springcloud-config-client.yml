@@ -9,7 +9,7 @@ server:
    profiles: dev
    application:
         name: springcloud-config-client
- eureka:
+eureka:
     client:
         service-url:
             defaultZone: http://eureka-dev.com:7001/eureka/
@@ -20,7 +20,7 @@ server:
    profiles: test
    application:
         name: springcloud-config-client
- eureka:
+eureka:
     client:
         service-url:
             defaultZone: http://eureka-test.com:7001/eureka/
